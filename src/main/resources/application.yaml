@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: topup-service
+  data:
+    mongodb:
+      uri: mongodb://rootdbuser:007UKrC9S97ETKdQsMCLKq00@localhost:27017/topup
+server:
+  port: 8080
+  servlet:
+    context-path: /topup-service
